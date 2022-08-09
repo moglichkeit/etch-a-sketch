@@ -61,8 +61,7 @@ document.getElementById('eraser').onclick = () => {
 };
 //rainbow
 function getRainbowColor() {
-    let random = Math.floor(Math.random()*255);
-    color = `rgb(${random},0,0)`;
+    color = `rgb(${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)})`;
 }
 document.getElementById('rainbow').onclick = () => {
     const cls = document.querySelectorAll('.cell');
