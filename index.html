@@ -10,8 +10,17 @@
 </head>
 <body>
     <h1>Etch-A-Sketch</h1>
-    <div id="grid">
-
+    <div class="container">
+        <div class="sidebar">
+            <input type="color" id="colorPicker">
+            <div class="options active" id="color">Color</div>
+            <div class="options" id="rainbow">Rainbow</div>
+            <div class="options" id="eraser">Eraser</div>
+            <div id="clear">Clear</div>
+            <div id="currentSize"></div>
+            <input type="range" id="gridSize" min="1" max="64">
+        </div>
+        <div id="grid"></div>
     </div>
 </body>
 </html>
