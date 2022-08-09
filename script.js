@@ -48,7 +48,6 @@ slider.oninput = function() {
 const colorPicker = document.getElementById('colorPicker');
 colorPicker.oninput = function() {
     color = this.value;
-    console.log(color);
 };
 //clear
 document.getElementById('clear').onclick = () => {
@@ -80,6 +79,5 @@ options.forEach(div => {
         document.getElementById(active).classList.remove('active');
         this.classList.add('active');
         active = this.id;
-        console.log(active);
     }
 });
