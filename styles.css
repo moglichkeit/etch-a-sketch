@@ -31,6 +31,7 @@ h1 {
     gap: 1.5rem;
 }
 .active {
+    border: solid black 1px;
     scale: 1.1;
 }
 .sidebar > div {
